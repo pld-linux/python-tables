@@ -5,15 +5,18 @@ Summary:	Dealing with large datasets in Python
 Summary(pl):	Obs³uga du¿ych zbiorów danych w Pythonie
 Name:		python-%{module}
 Version:	1.0
-Release:	1
+Release:	2
 License:	GNU
 Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/pytables/pytables-%{version}.tar.gz
 # Source0-md5:	776b3ef35b59a12c1617be919cd072d8
 URL:		http://pytables.sourceforge.net/
 BuildRequires:	hdf5-devel
+BuildRequires:	lzo-devel
+BuildRequires:	ucl-devel
 BuildRequires:	python
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-numarray
 BuildRequires:	python-numarray-devel
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
