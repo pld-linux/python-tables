@@ -13,11 +13,11 @@ Source0:	http://dl.sourceforge.net/pytables/pytables-%{version}.tar.gz
 URL:		http://pytables.sourceforge.net/
 BuildRequires:	hdf5-devel
 BuildRequires:	lzo-devel
-BuildRequires:	ucl-devel
 BuildRequires:	python
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-numarray
 BuildRequires:	python-numarray-devel
+BuildRequires:	ucl-devel
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
