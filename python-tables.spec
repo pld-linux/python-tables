@@ -2,7 +2,7 @@
 %define		module	tables
 
 Summary:	Dealing with large datasets in Python
-Summary(pl):	Obs³uga du¿ych zbiorów danych w Pythonie
+Summary(pl.UTF-8):   ObsÅ‚uga duÅ¼ych zbiorÃ³w danych w Pythonie
 Name:		python-%{module}
 Version:	1.2.1
 Release:	1
@@ -39,16 +39,16 @@ Besides, it provides a flexible, direct access on disk to anywhere in
 the data you want to go, using a combination of natural naming and
 extended slicing features.
 
-%description -l pl
-PyTables jest hierarchiczn± baz± danych zaprojektowan± aby wydajnie
-zarz±dzaæ bardzo du¿ymi ilo¶ciami danych.
+%description -l pl.UTF-8
+PyTables jest hierarchicznÄ… bazÄ… danych zaprojektowanÄ… aby wydajnie
+zarzÄ…dzaÄ‡ bardzo duÅ¼ymi iloÅ›ciami danych.
 
-PyTables jest zbudowany w oparciu o bibliotekê HDF5 i pakiet numarray.
-Zapewnia zorientowany obiektowo interfejs, dziêki któremu, w
-po³±czeniu z przepisanymi do C krytycznymi czê¶ciami kodu, pozwala na
-bardzo szybkie i ³atwe u¿ywanie tego narzêdzia do interaktywnego
-zapisu lub odczytu du¿ych ilo¶ci danych. Jedn± z wa¿niejszych zalet
-PyTables jest optymalizacja zu¿ycia pamiêci i przestrzeni dyskowej.
+PyTables jest zbudowany w oparciu o bibliotekÄ™ HDF5 i pakiet numarray.
+Zapewnia zorientowany obiektowo interfejs, dziÄ™ki ktÃ³remu, w
+poÅ‚Ä…czeniu z przepisanymi do C krytycznymi czÄ™Å›ciami kodu, pozwala na
+bardzo szybkie i Å‚atwe uÅ¼ywanie tego narzÄ™dzia do interaktywnego
+zapisu lub odczytu duÅ¼ych iloÅ›ci danych. JednÄ… z waÅ¼niejszych zalet
+PyTables jest optymalizacja zuÅ¼ycia pamiÄ™ci i przestrzeni dyskowej.
 
 %prep
 %setup -q -n pytables-%{version}
