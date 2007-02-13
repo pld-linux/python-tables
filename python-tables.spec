@@ -2,7 +2,7 @@
 %define		module	tables
 
 Summary:	Dealing with large datasets in Python
-Summary(pl.UTF-8):   Obsługa dużych zbiorów danych w Pythonie
+Summary(pl.UTF-8):	Obsługa dużych zbiorów danych w Pythonie
 Name:		python-%{module}
 Version:	1.2.1
 Release:	1
