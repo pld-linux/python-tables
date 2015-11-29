@@ -11,6 +11,7 @@ Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/pytables/pytables-%{version}.tar.gz
 # Source0-md5:	0fb331822f27e3cb03d04bd4247e8032
 URL:		http://pytables.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	hdf5-devel
 BuildRequires:	lzo-devel
 BuildRequires:	python
