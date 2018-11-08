@@ -4,12 +4,12 @@
 Summary:	Dealing with large datasets in Python
 Summary(pl.UTF-8):	Obsługa dużych zbiorów danych w Pythonie
 Name:		python-%{module}
-Version:	1.2.1
+Version:	2.0.4
 Release:	1
 License:	GNU
 Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/pytables/pytables-%{version}.tar.gz
-# Source0-md5:	0fb331822f27e3cb03d04bd4247e8032
+# Source0-md5:	e9892962256d28c898ea0c985e60c09e
 URL:		http://pytables.sourceforge.net/
 BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	hdf5-devel
@@ -75,7 +75,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.txt LICENSE
+%doc ANNOUNCE.txt LICENSE.txt MIGRATING_TO_2.x.txt README.txt RELEASE_NOTES.txt THANKS TODO.txt VERSION doc/
 %attr(755,root,root) %{_bindir}/*
 %dir %{py_sitedir}/%{module}
 %{py_sitedir}/%{module}/*
